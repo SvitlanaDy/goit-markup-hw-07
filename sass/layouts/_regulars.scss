@@ -11,7 +11,6 @@
   
   .regular-customers-item {
     min-width: 170px;
-  
     flex-basis: auto;
   }
   
@@ -24,16 +23,16 @@
     color: var(--soc-icon-color);
     border: 1px solid #afb1b8;
     border-radius: 4px;
+
+    &:hover,
+    &:focus {
+      color: var(--main-hover-color);
+      border-color: var(--main-hover-color);
+    }
   }
   
   .regular-soc-icon {
     fill: currentColor;
-  }
-  
-  .regular-soc-link:hover,
-  .regular-soc-link:focus {
-    color: var(--main-hover-color);
-    border-color: var(--main-hover-color);
   }
   
   .regular-soc-link {

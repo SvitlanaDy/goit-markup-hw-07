@@ -20,14 +20,14 @@
     border-radius: 4px;
     cursor: pointer;
     padding: 6px 22px;
-  }
-  
-  .about-button-examples:hover,
-  .about-button-examples:focus {
-    color: var(--main-white-color);
-    background-color: var(--btn-cover-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
+    &:hover,
+    &:focus {
+      color: var(--main-white-color);
+      background-color: var(--btn-cover-color);
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    }
   }
   
   .about-button-examples {
@@ -68,15 +68,17 @@
     color: var(--Main-text-color);
   }
   
-  .examples-link:hover,
-  .examples-link:focus {
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
-      0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-  }
+ 
   .examples-link {
     display: block;
     transition: box-shadow var(--transition-duration)
       var(--tarnsition-timing-function);
+
+      &:hover,
+      &:focus {
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+          0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+      }
   }
   
   .examples-top-wrap {
@@ -100,8 +102,10 @@
     transform: translateY(100%);
     transition: transform var(--transition-duration)
       var(--tarnsition-timing-function);
+
+      .examples-link:hover & {
+        transform: translateY(0);
+      }
   }
   
-  .examples-link:hover .examples-top-text {
-    transform: translateY(0);
-  }
+ 
