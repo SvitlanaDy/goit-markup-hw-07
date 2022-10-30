@@ -21,9 +21,9 @@
     background-color: rgba(47, 48, 58, 0.8);
     width: 370px;
     height: 70px;
-    // display: flex;
-    // align-items: center;
-    @extend align-list;
+  //   display: flex;
+  //  align-items: center;
+  @extend %align-list;
     justify-content: center;
   }
   

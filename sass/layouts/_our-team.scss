@@ -46,7 +46,7 @@
     background-color: var(--main-white-color);
     // display: flex;
     // align-items: center;
-    @extend align-list;
+    @extend %align-list;
     justify-content: center;
     color: #afb1b8;
 
