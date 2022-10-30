@@ -32,13 +32,14 @@
     position: absolute;
     right: 8px;
     top: 8px;
-    display: flex;
-    align-items: center;
+    @extend align-list;
+    // display: flex;
+    // align-items: center;
     justify-content: center;
     padding: 0;
     cursor: pointer;
   }
-  // @extend %centralisatin;
+  
   .btn-send {
     margin-top: 30px;
   }
@@ -152,8 +153,9 @@
       border: 2px solid var(--main-title-color);
       border-radius: 2px;
       margin-right: 5px;
-      display: flex;
-      align-items: center;
+      @extend align-list;
+      // display: flex;
+      // align-items: center;
       justify-content: center;
       fill: transparent;
 }
@@ -235,8 +237,6 @@ justify-content: center;
 background-color: var(--btn-cover-color);
 }
 }
-
-
 
 .btn-sub-send {
 transition: background-color var(--tarnsition-timing-function)

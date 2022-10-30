@@ -53,6 +53,11 @@ a {
   text-decoration: none;
 }
 
+.examples, .regular-customers, .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-white-color);
@@ -147,18 +152,6 @@ body {
 
 .team {
   background-color: var(--second-background-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.regular-customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.examples {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .backdrop {

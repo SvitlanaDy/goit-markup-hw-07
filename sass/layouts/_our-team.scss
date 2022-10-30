@@ -44,8 +44,9 @@
     height: 44px;
     border-radius: 50%;
     background-color: var(--main-white-color);
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
+    @extend align-list;
     justify-content: center;
     color: #afb1b8;
 

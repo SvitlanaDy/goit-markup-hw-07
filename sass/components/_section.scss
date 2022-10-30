@@ -26,19 +26,16 @@
   }
   .team {
     background-color: var(--second-background-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
+   @extend %section-padding;
   }
 
   .regular-customers {
-    padding-top: 94px;
-    padding-bottom: 94px;
+   @extend %section-padding;
   }
 
 
 .examples {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  @extend %section-padding;
   }
 
   // @extend %section-padding
