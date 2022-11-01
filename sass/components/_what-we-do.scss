@@ -10,18 +10,23 @@
     position: relative;
   }
   .wrap__text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
     
-    line-height: 1.14;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    background-color: rgba(47, 48, 58, 0.8);
-    width: 370px;
-    height: 70px;
+
+    position: absolute; 
+    width: 100%; 
+    bottom: 0; 
+    left: 0; 
+    background-color: rgba(47,48,58,.8); 
+    font-family: "Roboto"; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 14px; 
+    line-height: 1.14; 
+    text-align: center; 
+    letter-spacing: .03em; 
+    text-transform: uppercase; 
+    padding: 27px 10px; 
+    color: #ffffff;
     
   //   display: flex;
   //  align-items: center;
