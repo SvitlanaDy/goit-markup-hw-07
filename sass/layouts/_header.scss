@@ -17,9 +17,6 @@
     margin-right: 93px;
   }
   
-  // .logo__web {
-  //   color: var(--logoweb-color);
-  // }
  
   .navigation {
     display: flex;
@@ -31,7 +28,6 @@
   display: flex;
   align-items: center;
  
-  // height: 80px;
     border-bottom: 1px #ececec;
   }
   
@@ -89,21 +85,8 @@
   .adress__email{
     margin-right: 50px;
   }
-// .email{
-//   position: relative;
-//   min-width: 161px;
-//   height: 16px;
-  
-// }
-// .tel{
-//   position: relative;
-//   min-width: 142px;
-//   height: 16px;
-// }
-// .adress__tel{
-//   display: flex;
-// }
-  .email__link  {
+
+  .adress__email--link {
     font-weight: 500;
     
     line-height: var(--typical-line-height);
@@ -120,19 +103,18 @@
       color: var(--btn-cover-color);
     }
   }
-  .email__link  {
+  .adress__email--link  {
     transition: color var(--transition-duration) var(--tarnsition-timing-function);
   }
   
   .tel__link {
     font-weight: 500;
-    
+  
     line-height: var(--typical-line-height);
     letter-spacing: 0.02em;
     color: var(--Main-text-color);
-    
      display: flex;
-    align-items: center;
+     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     justify-content: center;
@@ -147,29 +129,19 @@
   }
   .soc__icon {
     fill: currentColor;
+   
     
   
   &:hover {
     color: var(--btn-cover-color);
   }
 }
-  .mailcall{
+  .soc__icon--mailcall{
     margin-right: 10px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
+  
   }
   
 
   
   
-  /*.header-email::before{
-    content: "";
-    width: 16px;
-    height: 12px;
-    
-    background-image: url("../images/symbol-defs.svg#icon-envelope");
-    color:var(--Main-text-color)
-    
-    margin-right: 10px;
-  }*/
+  

@@ -77,7 +77,7 @@ a {
   padding-bottom: 94px;
 }
 
-.btn__subscribe, .soc__link, .customers__soc-link, .what-we-do__text, .adventages__link, .check-text span, .modal-btn {
+.btn__subscribe, .customers__soc-link, .wrap__text, .benefits__link, .check-text span, .modal-btn {
   display: flex;
   align-items: center;
 }
@@ -392,26 +392,26 @@ background-color: rgba(0, 0, 0, 0.15);
   max-width: 696px;
 }
 
-.main__title {
+.hero__title--main {
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
-.adventages__list {
+.benefits {
   display: flex;
 }
-.adventages__list:not(:last-child) {
+.benefits:not(:last-child) {
   margin-right: 30px;
 }
 
-.adventages__item {
+.benefits__item {
   max-width: 270px;
 }
-.adventages__list .adventages__item + .adventages__item {
+.benefits .benefits__item + .benefits__item {
   margin-left: 30px;
 }
 
-.adventages__title {
+.benefits__title {
   font-weight: 700;
   font-size: 14px;
   line-height: var(--typical-line-height);
@@ -423,7 +423,7 @@ background-color: rgba(0, 0, 0, 0.15);
   width: calc(100% - 90px)/4;
 }
 
-.adventages__text {
+.abenefits__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -432,7 +432,7 @@ background-color: rgba(0, 0, 0, 0.15);
   margin-top: 10px;
 }
 
-.adventages__link {
+.benefits__link {
   min-width: 270px;
   justify-content: center;
   border-radius: 4px;
@@ -454,7 +454,7 @@ background-color: rgba(0, 0, 0, 0.15);
   position: relative;
 }
 
-.what-we-do__text {
+.wrap__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -478,12 +478,16 @@ background-color: rgba(0, 0, 0, 0.15);
   gap: 30px;
 }
 
-.team__item {
+.cards {
   background-color: var(--main-white-color);
   width: calc(100% - 90px)/4;
 }
 
-.team__item-title {
+.content {
+  padding: 30px 10px;
+}
+
+.content__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -493,7 +497,7 @@ background-color: rgba(0, 0, 0, 0.15);
   margin-bottom: 10px;
 }
 
-.team__text {
+.content__text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -501,29 +505,25 @@ background-color: rgba(0, 0, 0, 0.15);
   color: var(--Main-text-color);
 }
 
-.team__item-content {
-  padding: 30px 10px;
-}
-
-.team__item-soc-list {
+.content__list--socials {
   justify-content: center;
   margin-top: 16px;
 }
 
-.team__link {
+.soc__link--team {
   background-color: var(--main-white-color);
   color: #afb1b8;
 }
-.team__link:hover, .team__link:focus {
+.soc__link--team:hover, .soc__link--team:focus {
   background-color: var(--btn-cover-color);
   color: #ffffff;
 }
 
-.team__soc-icon {
+.content__soc--icon {
   fill: currentColor;
 }
 
-.team__link {
+.soc__link--team {
   transition: color var(--transition-duration) var(--tarnsition-timing-function), background-color var(--transition-duration) var(--tarnsition-timing-function);
 }
 
@@ -737,7 +737,7 @@ background-color: rgba(0, 0, 0, 0.15);
   margin-right: 50px;
 }
 
-.email__link {
+.adress__email--link {
   font-weight: 500;
   line-height: var(--typical-line-height);
   letter-spacing: 0.02em;
@@ -748,11 +748,11 @@ background-color: rgba(0, 0, 0, 0.15);
   justify-content: center;
   align-items: center;
 }
-.email__link:hover, .email__link:focus {
+.adress__email--link:hover, .adress__email--link:focus {
   color: var(--btn-cover-color);
 }
 
-.email__link {
+.adress__email--link {
   transition: color var(--transition-duration) var(--tarnsition-timing-function);
 }
 
@@ -782,20 +782,10 @@ background-color: rgba(0, 0, 0, 0.15);
   color: var(--btn-cover-color);
 }
 
-.mailcall {
+.soc__icon--mailcall {
   margin-right: 10px;
 }
 
-/*.header-email::before{
-  content: "";
-  width: 16px;
-  height: 12px;
-
-  background-image: url("../images/symbol-defs.svg#icon-envelope");
-  color:var(--Main-text-color)
-
-  margin-right: 10px;
-}*/
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -854,7 +844,7 @@ background-color: rgba(0, 0, 0, 0.15);
   transition: background-color var(--tarnsition-timing-function) var(--transition-duration);
 }
 
-.soc__list {
+.content__list {
   display: flex;
   gap: 10px;
 }
@@ -863,6 +853,8 @@ background-color: rgba(0, 0, 0, 0.15);
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
