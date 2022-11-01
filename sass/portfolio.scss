@@ -5,17 +5,20 @@
 @import "./base/common";
 @import "./utils/hidden";
 @import "./components/container";
-@import "./components/btn";
+
 @import "./components/section";
 @import "./components/modal";
-@import "./components/title";
-@import "./components/logo";
-@import "./components/soclist";
+
+@import "./components/hero";
+
+@import "./components/advantages";
+@import "./components/what-we-do";
+@import "./components/our-team";
+@import "./components/customers";
+@import "./components/examples";
 @import "./layouts/header";
-@import "./layouts/hero";
-@import "./layouts/advantages";
-@import "./layouts/what-we-do";
-@import "./layouts/our-team";
-@import "./layouts/customers";
-@import "./layouts/examples";
+@import "./layouts/title";
+@import "./layouts/logo";
+@import "./layouts/btn";
+@import "./layouts/soclist";
 @import "./layouts/footer";

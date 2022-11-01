@@ -106,6 +106,9 @@
       .examples-link:hover & {
         transform: translateY(0);
       }
+      .examples-link:focus & {
+        transform: translateY(0);
+      }
   }
   
  
